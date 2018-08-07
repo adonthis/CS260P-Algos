@@ -11,7 +11,7 @@ Midterm I study list : https://www.ics.uci.edu/~goodrich/teach/cs260P/hw/midterm
 Midterm II study list : https://www.ics.uci.edu/~goodrich/teach/cs260P/hw/midterm2.html
 Final Exam study List : https://www.ics.uci.edu/~goodrich/teach/cs260P/hw/final.html
 
-
+----------------------------------------------------------------------------------------------------------------------------
                                        CompSci 260P Project #1 — Median Selection
 DSelect, the deterministic median selection algorithm discussed in class, finds an approximate median by starting with forming groups of five.
 
@@ -35,8 +35,11 @@ Deliverables (to be submitted via EEE dropbox) include the following:
         Comparative experimental analysis and conclusions drawn from the experiments. This portion of the report should include pseudo-code summaries of the algorithms, design choices implemented in the source code (such as data structures and representations), and visual plots showing comparitive empirical performance of the different algorithms. 
 
 
-
-                                CompSci 260P Project #2 — Longest Common Subsequences
+----------------------------------------------------------------------------------------------------------------------------
+                               
+                               
+                               
+                                 CompSci 260P Project #2 — Longest Common Subsequences
 LCS, the deterministic dynamic-programming algorithm discussed in class, finds the length of a longest common subsequence of two character strings, X and Y, in O(nm) time, where n is the length of X and m is the length of Y.
 
 In this project, you are to implement the following algorithms:
