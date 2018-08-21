@@ -7,6 +7,7 @@
     public Class LCS_alternative {
 
         int lcs(char [] X, char [] Y, int m, int n){
+            //To find the shorter string and swap if needed
             if(m<n){
                 int temp =m;
                 m=n;
@@ -14,16 +15,18 @@
                 char [] tempC = X;
                 Y = X;
                 X = tempC;
-            char temp = X[m];
-            X[m] = chs2[ranNum2];
-            chs2[ranNum2] = temp;
+            //char temp = X[m];
+            //X[m] = chs2[ranNum2];
+            //chs2[ranNum2] = temp;
             }
+            //Extra Space O(m+n) memoization matrix 
             int dp[][] = new int [2][n];
 
+            //base case initializations
             for(int k=0;k<n;k++)dp[1][k]=0;
 
             for(int i=1;i<m;i++){
-
+                //COPY TO ZEROTH ROW
                 for(int k=0;k<n;k++)dp[0][j]=dp[1][j];
 
                 for(int j=0;j<n;j++){
